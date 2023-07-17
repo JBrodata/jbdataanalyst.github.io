@@ -1,0 +1,113 @@
+<!DOCTYPE HTML>
+<!--
+	Landed by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>JB Bikeshare Project</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
+		<div id="page-wrapper">
+
+			<!-- Header -->
+				<header id="header">
+					<nav id="nav">
+						<ul>
+							<li><a href="index.html">Home</a></li>
+							<li>
+								<a href="#">Projects</a>
+								<ul>
+									<li><a href="Bikeshare.html">Bikeshare Project</a></li>
+									<li><a href="index.html">Project Coming Soon</a></li>
+									<li><a href="index.html">Project Coming Soon</a></li>
+								</ul>
+							</li>
+							<li><a href="Aboutme.html">About Me</a></li>
+						</ul>
+					</nav>
+				</header>
+
+			
+			<!-- Four -->
+				<section id="four" class="wrapper style1 special fade-up">
+					<div class="container">
+						<header class="major">
+							<h2>Bikeshare Capstone Project</h2>
+							<p>Google Data Analytics Certificate Course</p>
+						</header>
+						<div class="box alt">
+								<section class="col-4 col-6-medium col-12-xsmall">
+									
+									<h3>Problem</h3>
+									<p>Cyclistic, fictional bike sharing company is looking to expand annual memberships. I was tasked with comparing how casual and member riders use the service differently.  .</p>
+								</section>
+								<section class="col-4 col-6-medium col-12-xsmall">
+
+									<h3>Excel</h3>
+									<p>Created "Ride_length" column by subtracting starting time from ending time and formatted as time 37:30:55. 
+										<img src="images\ridelength.png">
+									</p>
+									<p>Created "Day_of_week" column by using WEEKDAY function of starting time column and custom formatted dddd. 
+										<img src="images\dayweek.png">
+									</p>
+									<p>Created pivot table showing user type average ride time by day of week.</p>
+										<p></p><img src="images\pivot.png">
+									</p>
+								</section>
+								<section class="col-4 col-6-medium col-12-xsmall">
+									<h3>BigQuery</h3>
+									<p>I wanted to explore user habits by different times of the year. My first query was to find an average ride time, then a max ride time, followed by the busiest day of the week and a count of the rides on that day. </p>
+										<img src="images/SQLAvg.png">
+										<p>Result</p>
+										<img src="images\SQLAvgRes.png">
+									<p>I then performed a join of the entire year counting the numnber of trips by the user type for each day of the week</p>
+										<img src="images\YrJoin1.png">,<img src="images\YrJoin2.png">,<img src="images\YrJoin3.png">,<img src="images\YrJoin4.png">
+										<img src="images\YrJoin5.png">,<img src="images\YrJoin6.png">,<img src="images\YrJoin7.png">,<img src="images\YrJoin8.png">
+									<p>Result</p>
+										<img src="images\YrResult1.png">,<img src="images\YrResult2.png">,<img src="images\YrResult3.png">
+								</section>
+								<section class="col-4 col-6-medium col-12-xsmall">
+									<h3>Tableau</h3>
+									<p>I then used the SQL data to create a dashboard on Tableau</p>
+									<img src="images\Dashboard 1.png" width="100%">
+								</section>
+								<section class="col-4 col-6-medium col-12-xsmall">
+									<h3>Conclusion</h3>
+									<p>Exploring the data allowed me to see that casual riders typically used the service for longer ride times and more on weekends. I then made several recommendations to try and convert more casual riders to members. </p>
+								</section>
+							</div>
+						</div>
+					</div>
+				</section>
+
+			<!-- Footer -->
+				<footer id="footer">
+					<ul class="icons">
+						<li><a href="https://www.linkedin.com/in/jamesbrodeur/" target="_blank" class="icon brands alt fa-linkedin-in"><span class="label">LinkedIn</span></a></li>
+						<li><a href=mailto:jbdataanalyst@gmail.com class="icon solid alt fa-envelope"><span class="label">Email</span></a></li>
+					</ul>
+					<ul class="copyright">
+						<li>&copy; Untitled. All rights reserved.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+					</ul>
+				</footer>
+
+		</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/jquery.dropotron.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
