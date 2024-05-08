@@ -2529,7 +2529,7 @@ input, select, textarea {
 			z-index: 1;
 		}
 
-		/*.image img {
+		.image img {
 			border-radius: 4px;
 			display: block;
 		}
@@ -2543,7 +2543,7 @@ input, select, textarea {
 		.image.right {
 			float: right;
 			margin: 0 0 1em 1.5em;
-			top: 0.25em;*/
+			top: 0.25em;
 		}
 
 		.image.left, .image.right {
