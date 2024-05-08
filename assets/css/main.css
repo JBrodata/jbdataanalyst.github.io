@@ -3515,7 +3515,7 @@ input, select, textarea {
 				display: inline-block;
 				height: 18em;
 				margin-left: 3em;
-				vertical-align: middle;
+				vertical-align: top;
 				width: 18em;
 			}
 
